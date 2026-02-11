@@ -22,7 +22,7 @@ const filterCandidates = (apps: any[], status: string) => {
 
 const fetchJobs = async () => {
   console.log("Bat dau goi API...");
-  const res = await axios.get('http://localhost:8386/api/jobs');
+  const res = await axios.get('https://baitestintern.onrender.com/api/jobs');
   
   console.log("Du lieu tho tu server:", res.data);
 
