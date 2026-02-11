@@ -89,8 +89,6 @@ Khi Đổi trạng thái: Khi kéo thả ứng viên, giao diện sẽ cập nh�
 **Câu 11: Phương án "Xác nhận thuê"**
 Yêu cầu: Khi chọn trạng thái "Đã tuyển" (HIRED), cần phải xác nhận kỹ vì đây là quyết định quan trọng.
 Giải pháp của em: Khi người dùng bấm nút "Tuyển", em chưa gọi API ngay. Em hiện lên một hộp thoại window.confirm: "Bạn có chắc chắn muốn tuyển ứng viên này không?". Chỉ khi họ bấm OK thì em mới thực hiện lệnh tuyển.
-**Câu 12: Deploy lên Vercel**
-Link Demo: [Điền link Vercel của bạn vào đây]
 
 **Câu 13: Giải quyết vấn đề hệ thống chậm (Frontend Solution)**
 Khi danh sách ứng viên quá dài (ví dụ 10.000 người), trình duyệt sẽ bị đơ nếu hiển thị hết. Em có các giải pháp đơn giản và hiệu quả sau:

@@ -79,7 +79,7 @@ export default function Dashboard() {
 
             {error && (
               <div className="text-center py-10 text-red-500 bg-red-50 rounded-lg border border-red-100">
-                ❌ Loi ket noi Backend!
+              Loi ket noi Backend!
               </div>
             )}
 
